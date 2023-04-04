@@ -1,0 +1,125 @@
+
+
+/****************************** TAG SELECTORS ********************************/
+body{
+  background-image: url("../images/dark-industrial-concrete.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  margin: 0px 40px 40px 40px;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+a{
+  color: #11999E;
+}
+hr{
+  border-color: #282A3A;
+  border-width: 7px;
+  border-style: none;
+  border-top-style: dotted;
+
+  height: 0px;
+  width: 30%;
+}
+div{
+  margin: 20px 5px 20px 5px;
+}
+td{
+  padding: 0px 20px 0px 0px;
+}
+p{
+  padding: 0px 5px 5px 0px;
+  color: #66BFBF;
+}
+li{
+  color: #66BFBF;
+}
+strong{
+  color: #66BFBF;
+}
+h1{
+  color: #66BFBF;
+  margin: 0px 5px 5px 0px;
+  padding: 0px 5px 5px 0px;
+  font-family: 'Sacramento', serif;
+  line-height: 200%;
+}
+h2{
+  color:   #66BFBF;
+  margin: 0px 5px 5px 0px;
+  padding: 0px 5px 5px 0px;
+  font-family: 'Montserrat', serif;
+  font-weight: normal;
+}
+h3{
+  color:  #11999E;
+  margin: 0px 5px 5px 0px;
+  padding: 0px 5px 5px 0px;
+  font-family: 'Montserrat', serif;
+}
+
+
+
+/****************************** CLASS SELECTORS *******************************/
+/*  .className{ property: vale; } */
+.mainPage-div{
+  background-image: url("../images/horror-like-concrete.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  padding: 40px 40px 20px 40px;
+}
+
+.contactMe-container-div{
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+.top-table-res{
+  margin: 0 auto 0 auto;
+  padding: 5px 15px 0px 15px;
+  border-spacing: 40px
+}
+
+.certifications-container-div{
+  margin: 0 auto 0 auto;
+}
+.cer-tbl{
+  border-spacing: 5px;
+  text-align: left;
+}
+
+.Experience-container-div{
+  margin: 0 auto 0 auto;
+}
+.exp-tbl{
+  border-spacing: 5px;
+  text-align: left;
+}
+
+
+.Education-container-div{
+  margin: 0 auto 0 auto;
+}
+.edu-tbl{
+  border-spacing: 5px;
+  text-align: left;
+}
+
+
+
+/****************************** ID SELECTORS **********************************/
+/* id is uniqe !!! */
+/*  #idName{ property: vale; }   ---  id is more specific then class!!! */
+
+
+/****************************** SUDO class ********** *********************/
+/*  ELEMENT:actName{ property: vale; } */
+/* for exmample:
+                img:hover{ background-color: red; }
+                any time we hover img with the mouse it
+                 will change colot to red*/
+img:hover {
+  border: 5px solid #555;
+}

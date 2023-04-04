@@ -1,0 +1,162 @@
+
+
+/****************************** TAG SELECTORS ********************************/
+body{
+  background-image: url("../images/dark-industrial-concrete.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 40px 40px 40px 40px;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+a{
+  color: #11999E;
+}
+hr{
+  border-color: #282A3A;
+  border-width: 7px;
+  border-style: none;
+  border-top-style: dotted;
+
+  height: 0px;
+  width: 30%;
+}
+div{
+  margin: 20px 5px 20px 5px;
+}
+td{
+  padding: 0px 20px 0px 0px;
+}
+p{
+  padding: 0px 5px 5px 0px;
+}
+h1{
+  color: #66BFBF;
+  margin: 0px 5px 5px 0px;
+  padding: 0px 5px 5px 0px;
+  font-family: 'Sacramento', serif;
+  line-height: 200%;
+}
+h2{
+  color:  #11999E;
+  margin: 0px 5px 5px 0px;
+  padding: 0px 5px 5px 0px;
+  font-family: 'Montserrat', serif;
+  font-weight: normal;
+}
+h3{
+  color: #66BFBF;
+  margin: 0px 5px 5px 0px;
+  padding: 0px 5px 5px 0px;
+  font-family: 'Montserrat', serif;
+}
+label{
+  color: #66BFBF;
+  margin: 10px 5px 5px 0px;
+  padding: 0px 5px 5px 0px;
+  font-family: 'Montserrat', serif;
+}
+input{
+  margin: 10px 5px 5px 0px;
+  padding: 3px 5px 5px 5px;
+  border-color: #66BFBF;
+  background-color: black;
+  color: #66BFBF;
+  font-weight: bold;
+}
+textarea{
+  padding: 3px 5px 5px 5px;
+  border-color: #66BFBF;
+  background-color: black;
+  color: #66BFBF;
+  font-weight: bold;
+}
+
+
+/****************************** CLASS SELECTORS *******************************/
+/*  .className{ property: vale; } */
+.main-container-div{
+  background-image: url("../images/horror-like-concrete.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px auto 40px auto;
+  padding: 20px 0px 50px 0px;
+  text-align: center;
+}
+.top-container-div{
+  margin: 50px 400px 40px 450px;
+  text-align: left;
+}
+.contacrMe-form{
+  margin: 0 auto 0 auto;
+}
+.middle-container-div{
+  margin: 0px auto 30px auto;
+  text-align: center;
+}
+
+.sendMailBtn{
+  background: #000000;
+  background-image: -webkit-linear-gradient(top, #000000, #000000);
+  background-image: -moz-linear-gradient(top, #000000, #000000);
+  background-image: -ms-linear-gradient(top, #000000, #000000);
+  background-image: -o-linear-gradient(top, #000000, #000000);
+  background-image: linear-gradient(to bottom, #000000, #000000);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  -webkit-box-shadow: 11px 8px 8px #9ae6e6;
+  -moz-box-shadow: 11px 8px 8px #9ae6e6;
+  box-shadow: 11px 8px 8px #9ae6e6;
+  font-family: Arial;
+  color: #66BFBF;
+  font-size: 15px;
+  padding: 7px 10px 7px 11px;
+  margin: 0px 0px 5px 10px;
+  border: solid #66BFBF 3px;
+  text-decoration: none;
+}
+
+.links-img{
+  height: 20px;
+  width: 20px;
+}
+
+.anchor-style{
+  color: #66BFBF;
+  font-size: 1.2rem;
+  display: inline-block;
+  margin: 5px 10px 5px 10px;
+  padding: 5px 5px 3px 5px;
+  border: solid #66BFBF 1.5px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+/****************************** ID SELECTORS **********************************/
+/* id is uniqe !!! */
+/*  #idName{ property: vale; }   ---  id is more specific then class!!! */
+
+
+/****************************** SUDO class ********** *********************/
+/*  ELEMENT:actName{ property: vale; } */
+/* for exmample:
+                img:hover{ background-color: red; }
+                any time we hover img with the mouse it
+                 will change colot to red*/
+img:hover {
+  border: 5px solid #555;
+}
+.anchor-style:hover{
+  background-color: #66BFBF;
+  color: black;
+}
+.sendMailBtn:hover {
+  background: #30c9c9;
+  color: black;
+  background-image: -webkit-linear-gradient(top, #30c9c9, #a6dede);
+  background-image: -moz-linear-gradient(top, #30c9c9, #a6dede);
+  background-image: -ms-linear-gradient(top, #30c9c9, #a6dede);
+  background-image: -o-linear-gradient(top, #30c9c9, #a6dede);
+  background-image: linear-gradient(to bottom, #30c9c9, #a6dede);
+  text-decoration: none;
+}

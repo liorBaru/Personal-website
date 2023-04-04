@@ -1,0 +1,179 @@
+
+
+/****************************** TAG SELECTORS ********************************/
+body{
+  /***background-color: #393E46;***/
+  /** background-image: url("../images/aurora-pink.png"); **/
+  /** background-image: url("../images/textured-black-surface.jpg"); **/
+  background-image: url("../images/dark-industrial-concrete.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  margin: 0px 40px 40px 40px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+a{
+  color: #11999E;
+}
+hr{
+  border-color: #282A3A;
+  border-width: 7px;
+  border-style: none;
+  border-top-style: dotted;
+  height: 0px;
+  width: 10%;
+}
+
+div{
+  margin: 20px 5px 20px 5px;
+}
+p{
+  color: #11999E;
+  padding: 0px 5px 5px 0px;
+  text-align: left;
+  line-height: 1.5; /** the space between lines of text **/
+}
+h1{
+  color: #66BFBF;
+  margin: 0px 5px 5px 0px;
+  padding: 0px 5px 5px 0px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 200%;
+  text-align: left;
+}
+h2{
+  color:  #66BFBF;
+  margin: 0px 5px 5px 0px;
+  padding: 0px 5px 0px 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  text-align: left;
+}
+h3{
+  color:  #66BFBF;
+  margin: 0px 5px 5px 0px;
+  padding: 0px 5px 5px 0px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+}
+
+
+
+/****************************** CLASS SELECTORS *******************************/
+/*  .className{ property: vale; } */
+.mainPage-div{
+  background-image: url("../images/horror-like-concrete.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+
+.mysig-div{
+  margin: 0 auto 0 auto;
+  text-align: left;
+}
+.mysig{
+  color: #66BFBF;
+  padding: 5px 5px 5px 20px;
+  font-family: 'Sacramento', serif;
+  line-height: 200%;
+  width: 300px;
+  display: inline-block;
+}
+
+
+.top-container{
+  /** background-image: url("../images/earth-sunRise.webp"); **/
+  margin: 0 auto 0 auto;
+  text-align: center;
+  padding: 30px 100px 100px 200px;
+  height: 400px;
+}
+
+.mainMyimg{
+  margin: 0 30px 0 auto;
+  width: 340px;
+  height: 500px;
+  position: absolute;
+  top: 40px;
+}
+.p-welcome{
+  color: #66BFBF;
+  line-height: 1.5; /** the space between lines of text **/
+  text-align: left;
+  font-weight: bold ;
+  font-size: 25px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+.p-sub-welcome{
+  color: #66BFBF;
+  line-height: 1.5; /** the space between lines of text **/
+  text-align: left;
+  font-weight: bolder ;
+  font-size: 50px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+.links-img{
+  height: 20px;
+  width: 20px;
+}
+
+.middle-container{
+  margin: 60px auto 60px auto;
+  text-align: center;
+  padding-left: 40px;
+}
+.middle-table{
+  margin: 0 auto 0 auto;
+}
+
+
+.bottom-container{
+  margin: 0 auto 0 auto;
+  text-align: center;
+  padding-left: 40px;
+}
+.myhobbies{
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+.buttomSing{
+  color: #66BFBF;
+  padding: 0px 5px 5px 0px;
+  font-family: 'Sacramento', serif;
+  padding: 0px 0px 20px 40px;
+}
+
+
+/****************************** ID SELECTORS **********************************/
+/* id is uniqe !!! */
+/*  #idName{ property: vale; }   ---  id is more specific then class!!! */
+
+
+/****************************** SUDO class ********** *********************/
+/*  ELEMENT:actName{ property: vale; } */
+/* for exmample:
+                img:hover{ background-color: red; }
+                any time we hover img with the mouse it
+                 will change colot to red*/
+/* .mainMyimg:hover {
+  border: 5px solid #66BFBF;
+} */
+.anchor-style:hover{
+  background-color: #66BFBF;
+  color: black;
+}
+.anchor-style{
+  color: #66BFBF;
+  font-size: 1.2rem;
+  display: inline-block;
+  margin: 5px 10px 5px 10px;
+  padding: 5px 5px 3px 5px;
+  border: solid #66BFBF 1.5px;
+  border-radius: 8px;
+  text-decoration: none;
+}
